@@ -1,0 +1,201 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 900;
+
+}
+
+/* HEADINGS SECTION */
+
+.main-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* SECTIONS */
+
+.colored-section {
+
+    background-color: hsl(351, 100%, 65%);
+    color: white;
+}
+
+.non-colored-section {
+
+    background-color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 20px 75px 60px 15px;
+
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    font-weight: 100;
+
+}
+
+.container-fluid {
+
+    padding: 7% 15%;
+}
+
+
+/* Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+
+}
+
+/* TITLE SECTION */
+
+
+#title .container-fluid {
+
+    padding: 3% 15% 7%;
+    text-align: left;
+
+}
+
+#dog-image {
+    transform: rotate(20deg);
+    height: 500px;
+    margin-left: 60px;
+    position: absolute;
+    right: 26%;
+    bottom: 2%;
+    margin: auto;
+
+
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+
+}
+
+.feature-title {
+    font-size: 1.5rem;
+
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+
+.icon-features {
+    scale: 300%;
+    color: #ef8172;
+    margin: 1.5rem 0;
+}
+
+.icon-features:hover {
+    color: #ff4c68;
+}
+
+.feature-item {
+    padding: 1%;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.company-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-arrow {
+    scale: 200%;
+    color: black;
+}
+
+
+/* PRICING */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+
+    padding: 3% 2%;
+}
+
+@media (max-width: 1020px) {
+    #title {
+        text-align: center;
+    }
+
+    #dog-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* CTA */
+
+
+
+
+/* FOOTER */
+
+
+.footer-icon {
+    margin: 10px;
+}
